@@ -1,11 +1,18 @@
 import "./App.css";
-import Starter from "./tutorial/03-conditional-rendering/starter/07-user-challenge";
+import Starter from "./tutorial/02-useEffect/starter/05-cleanup-function";
 import Final from "./tutorial/01-useState/final/03-useState-array";
+
+import Navbar from "./tutorial/04-project-structure/starter/Navbar";
+import {
+  Home,
+  About,
+} from "./tutorial/04-project-structure/starter/Pages";
 
 function App() {
   return (
     <div className="contianer">
-      <Starter />
+      <Home />
+      <About />
     </div>
   );
 }
